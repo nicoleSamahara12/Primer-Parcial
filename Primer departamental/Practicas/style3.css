@@ -1,0 +1,52 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{
+	background: linear-gradient(rgb(243, 52, 52), rgb(245, 119, 182));
+}
+.caja 
+{
+	width: 80%;
+}
+
+.caja2 
+{
+	width: 30%;	
+}
+
+.caja2 p 
+{
+	display: inline-block;
+}
+
+.fecha 
+{
+	font-family: Arial;
+	text-align: center;
+	font-size: 1em;
+	margin-bottom: 1em;
+	background: rgb(245, 194, 205); 
+	border:2px solid black;	
+	padding: 20px;
+	width: 100%;
+	font-weight: bold;
+	border-radius:5px;
+		
+}
+
+.reloj2 
+{
+	font-weight: bold;
+	font-family: Arial;
+	width: 100%;
+	padding: 20px;
+	font-size: 2em;
+	text-align: center;
+	background: rgb(245, 194, 205);
+	border:2px solid black;
+	border-radius:5px;
+}
