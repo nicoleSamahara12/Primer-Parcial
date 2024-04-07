@@ -1,0 +1,82 @@
+<Doctype html>
+    <html lang ="en">
+
+        <head>
+            <meta charset="uft = 8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name ="viexport" content="width=device=width, initial-scales=1.0">
+
+            <script type="text/javascript" src="./js/promedio.js"></script>
+            <link rel="stylesheet" href="style5.css">
+
+            <title> FORMULARIO </title>
+
+            </head>
+
+            <body>
+
+                <div class="columns">
+                <div class="contenedor">
+                <h1> <FONT COLOR="black">  REGISTRO </FONT></h1>
+                    <br>
+
+                <div class="container">
+                <form id="form-validation" novalidate>
+
+                    <div class="form-group">
+                    <span> Nombre Completo </span>
+                    <input type="text" placeholder="Ingrese Nombre Completo" >
+                    </div>
+<br>                
+<br>
+                    <div class="form-group">
+                    <span> Correo Electronico </span>
+                    <input type="email" placeholder="Ingrese Correo Electronico" >
+                    </div>
+<br>
+<br>
+                    <div class="form-group">
+                    <span> Numero Telefonico </span>
+                    <input type="number" placeholder="Ingrese Numero Telefonico" >
+                    </div>
+<br>
+<br>
+                    <div class="form-group">
+                    <form action="#">
+                        <label for="lang">Tipo de entrada</label>
+                        <select name="lenguajes" id="lang">
+                          <option value="javascript">General</option>
+                          <option value="php">VIP</option>
+                          <option value="php">Platinum</option>
+                        </select>
+                   
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Registrarse">
+                    </div>
+                    </form>
+   
+
+                    </div>
+<script>
+    const addform = document.getElementById
+    ("form-validation");
+    addform.addEventListener("submit", (e)=>{
+        if(addform.checkValidity() === flase){
+            e.preventDefault();
+            e.stopPropagation();
+            addform.classList.add('was-validate');
+            return false
+        }
+    })
+</script>
+</div>
+
+<div class="columns">
+    <img src="imagenes/evento2.jpg" width="500" height="450" >
+</div>
+
+                </body>
+                </html>
+                
+
